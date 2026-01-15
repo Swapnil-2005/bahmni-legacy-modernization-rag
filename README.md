@@ -1,4 +1,5 @@
 An AI-powered RAG system that extracts and explains hidden business logic from legacy healthcare codebases to enable safe modernization.
+
 🔹 Project Summary 
 
 Built an AI-powered system to understand and modernize legacy healthcare software
