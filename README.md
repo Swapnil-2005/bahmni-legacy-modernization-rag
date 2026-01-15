@@ -36,52 +36,62 @@ Preserves years of embedded domain knowledge
 Especially valuable for healthcare IT systems
 
 
-┌──────────────────────┐
-│  Bahmni-Core         │
-│  Java Source Code    │
-└─────────┬────────────┘
-          │
-          ▼
-┌──────────────────────┐
-│  Code Ingestion      │
-│  (.java file scan)   │
-└─────────┬────────────┘
-          │
-          ▼
-┌──────────────────────┐
-│  Code Chunking       │
-│  (file-level docs)  │
-└─────────┬────────────┘
-          │
-          ▼
-┌────────────────────────────┐
-│  Vector Embeddings          │
-│  (semantic meaning)         │
-└─────────┬──────────────────┘
-          │
-          ▼
-┌────────────────────────────┐
-│  Vector Store (FAISS)       │
-│  Fast similarity search     │
-└─────────┬──────────────────┘
-          │
-          ▼
-┌────────────────────────────┐
-│  Retriever                 │
-│  (top-k relevant code)     │
-└─────────┬──────────────────┘
-          │
-          ▼
-┌────────────────────────────┐
-│  LLM Reasoning (Sarvam AI)  │
-│  Uses ONLY retrieved code  │
-└─────────┬──────────────────┘
-          │
-          ▼
-┌────────────────────────────┐
-│  Human-Readable Explanation│
-│  (rules, workflows, logic) │
-└────────────────────────────┘
+
+
+
+
+
+```text
+Lower maintenance and refactoring risk
+Preserves years of embedded domain knowledge
+Especially valuable for healthcare IT systems
+
+┌──────────────────────────────┐
+│ Bahmni-Core                  │
+│ Java Source Code             │
+└───────────────┬──────────────┘
+                │
+                ▼
+┌──────────────────────────────┐
+│ Code Ingestion               │
+│ (.java file scan)            │
+└───────────────┬──────────────┘
+                │
+                ▼
+┌──────────────────────────────┐
+│ Code Chunking                │
+│ (file-level documents)       │
+└───────────────┬──────────────┘
+                │
+                ▼
+┌──────────────────────────────┐
+│ Vector Embeddings            │
+│ (semantic meaning)           │
+└───────────────┬──────────────┘
+                │
+                ▼
+┌──────────────────────────────┐
+│ Vector Store (FAISS)         │
+│ Fast similarity search       │
+└───────────────┬──────────────┘
+                │
+                ▼
+┌──────────────────────────────┐
+│ Retriever                    │
+│ (top-k relevant code chunks) │
+└───────────────┬──────────────┘
+                │
+                ▼
+┌──────────────────────────────┐
+│ LLM Reasoning (Sarvam AI)    │
+│ Uses ONLY retrieved code     │
+└───────────────┬──────────────┘
+                │
+                ▼
+┌──────────────────────────────┐
+│ Human-Readable Explanation   │
+│ (rules, workflows, logic)    │
+└──────────────────────────────┘
 
 
 
