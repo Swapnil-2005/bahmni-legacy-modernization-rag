@@ -34,7 +34,7 @@ Lower maintenance and refactoring risk
 Preserves years of embedded domain knowledge
 
 Especially valuable for healthcare IT systems
-*********************************************************************************************************************************************************************************************************************
+
 
 ┌──────────────────────┐
 │  Bahmni-Core         │
@@ -84,7 +84,6 @@ Especially valuable for healthcare IT systems
 └────────────────────────────┘
 
 
-####################################################################################################################################################################################################################
 
 Python Codebase
 │
@@ -94,8 +93,7 @@ Python Codebase
 ├── retrieve.py   → Finds relevant code chunks
 ├── generate.py   → LLM explanation layer
 └── app.py        → Streamlit UI
-********************************************************************************************************************************************************************************************************************
-Example Output
+
 query : What is Bahmni-Core and what problem does it solve?
 Ans: 
 1. Bahmni-Core is the foundational module of the Bahmni platform, designed to address critical challenges in healthcare IT systems, particularly in resource-constrained environments like India. It solves the following key problems:
