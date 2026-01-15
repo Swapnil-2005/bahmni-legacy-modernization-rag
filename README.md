@@ -42,9 +42,7 @@ Especially valuable for healthcare IT systems
 
 
 ```text
-Lower maintenance and refactoring risk
-Preserves years of embedded domain knowledge
-Especially valuable for healthcare IT systems
+
 
 ┌──────────────────────────────┐
 │ Bahmni-Core                  │
